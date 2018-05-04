@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Типа каталог</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<style>
+	hr {
+		border: none;
+		background-color: #000;
+		color: #000;
+		height: 1px;
+	}
+	figure {
+		display: inline-block;
+		margin: 0;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+	}
+	figure img {
+		display: block;
+		border: 1px solid #fff;
+		outline: 1px solid #c9c9c9;
+	}
+	figure figcaption {
+		font-size: 16px;
+		font-weight: 300;
+		margin-top: 5px;
+	}
+	figure figcaption span {
+		display: block;
+		font-size: 14px;
+		color: #29c5e6;
+	}
+	section > figure + figure {
+		margin-left: 28px;
+	}
+	section > h2 {
+		background: #29c5e6;
+		font: 30px 'Oswald', sans-serif;
+		font-weight: 300;
+		color: #fff;
+		padding: 0 10px;
+		margin: 30px 0 0 0;
+	}
+	figure figcaption {
+		font-size: 16px;
+		font-weight: 300;
+		margin-top: 5px;
+	}
+	
+	figure div {
+		font-size: 14px;
+		color: #29c5e6;
+	}
+	
+	.team-row figure {
+		margin-top: 20px;
+	}
+	
+	.team-row figure + figure {
+		margin-left: 263px;
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div id="header_menu">
+			<ul>
+				<li><a href="index.html" class="menu_animation">Главная</a></li>
+				<li><a href="catalogue.html" class="menu_animation">Каталог</a></li>
+				<li><a href="contacts.html" class="menu_animation">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="page_align">
+		<div class="title">
+			<p>Каталог шапок:</p>
+		</div>
+		<hr>
+		<div class="team-row">
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Первая шапка<span><a href="#w1" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Вторая шапка<span><a href="#w2" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Третья шапка<span><a href="#w3" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+		</div>
+		<div class="team-row">
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Четвертая шапка<span><a href="#w4" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Пятая шапка<span><a href="#w5" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+			<figure>
+				<img src="images/hat1_mini.jpg" width="150" height="150" alt="">
+				<figcaption>Шестая шапка<span><a href="#w6" class="char_button">Характеристики</a></span></figcaption>
+			</figure>
+		</div>
+		<!-- Модальное окно №1 -->
+	   			<a href="#x" class="overlay" id="w1"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Красный</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	   			<a href="#x" class="overlay" id="w2"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Синий</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	   			<a href="#x" class="overlay" id="w3"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Желтый</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	   			<a href="#x" class="overlay" id="w4"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Голубой</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	   			<a href="#x" class="overlay" id="w5"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Розовый</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	   			<a href="#x" class="overlay" id="w6"></a>
+	   			<div class="popup">
+					<img src="images/hat1.jpg">
+					<p>Характеристики:</p>
+					<li>Размер: S/M</li>
+					<li>Цвет: Золотой</li>
+					<li>Материал: Хлопок</li>
+	    			<a class="close"title="Закрыть" href="#close"></a>
+	    		</div>
+	        </div>
+		</div>
+		<footer class="footer">
+		<div class="copyright">
+			<b>Все права защищены</b> © 2018 г.
+		</div>
+	</footer>
+</body>
+</html>
